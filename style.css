@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: grid;
+  grid-template-rows: 1fr; /* Adjust the number of rows as needed */
+  background-color: #f2f2f2;
+  padding: 1px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: red;
+  padding: 10px;
+}
